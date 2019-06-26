@@ -1,7 +1,28 @@
 <div class="jumbotron">
-    <h1 class="display-4">Merhaba KopGit!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <h1 class="display-4">Merhaba KopGit!</h1>
+  <p class="lead">
+    This is a simple hero unit, a simple jumbotron-style component for calling
+    extra attention to featured content or information.
+  </p>
+  <hr class="my-4" />
+  <p>
+    It uses utility classes for typography and spacing to space content out
+    within the larger container.
+  </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div class="row">
+  <div class="col-md-4" *ngFor="let user of users">
+    <div class="card user-card mt-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.name + " " + user.surname }}</h5>
+        <h6 class="card-subtitle mb-2">{{ user.email }}</h6>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
   </div>
+</div>

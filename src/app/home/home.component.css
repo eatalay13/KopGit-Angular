@@ -1,8 +1,14 @@
-:root{
-    --primary-color:#4527a0;
+:root {
+  --primary-color: #4527a0;
 }
 
-.jumbotron{
-    background-color: #7953d2;
-    color: white;
+.jumbotron {
+  background-color: #7953d2;
+  color: white;
+}
+
+.user-card {
+  background-color: #7e57c2;
+  color: white;
+  border: #4527a0 5px solid
 }
