@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="active">KopGit</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+    aria-controls="navbarCollapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/home']" routerLinkActive="active">
+          <i class="fa fa-home"></i> Anasayfa</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Destek</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-users"></i> Birlikte</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><i class="fa fa-certificate"></i> Rozetler</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-user"></i> Profil</a>
+      </li>
+    </ul>
+    <button class="btn btn-light" type="button">
+      <i class="fa fa-sign-out"></i> Çıkış
+    </button>
+  </div>
+</nav>

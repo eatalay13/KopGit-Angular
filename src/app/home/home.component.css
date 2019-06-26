@@ -1,0 +1,8 @@
+:root{
+    --primary-color:#4527a0;
+}
+
+.jumbotron{
+    background-color: #7953d2;
+    color: white;
+}
